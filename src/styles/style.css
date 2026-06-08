@@ -1,0 +1,245 @@
+:root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c0000;
+    font-family: 'Arial', sans-serif; font-style: normal;
+    color:#ffecd2;
+    margin: 0rem 10rem 0rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#a21929, #660d18);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buttonGeneric {
+    text-decoration: none;
+    background: none;
+    color: #dbdbdb;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.buttonSpecial {
+    text-decoration: none;
+    background-color: #a21929;
+    padding: 0.9rem 1.6rem;
+    border-radius: 1rem;
+    color: #dbdbdb;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttonGeneric:hover, .buttonContact:hover {
+    color: #ffffff;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 85%;
+    margin: 12rem;
+}
+
+.intro-text {
+    padding: 0.6rem;
+}
+
+.intro-text h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', serif; font-style: italic;
+}
+
+.intro-emoji {
+    padding: 0.6rem;
+    font-size: 2rem;
+}
+
+.intro-emoji h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 8.5rem;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.projetos h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.projetos .projetos-indiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+    gap: 2rem;
+}
+
+.projetos .projetos-indiv-txt {
+    font-size: 1.2rem;
+}
+
+.projetos .projetos-indiv-txt p {
+    font-family: 'Times New Roman', serif; font-style: italic;
+}
+
+.projetos .projetos-qccheck-imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 50%;
+    height: auto;
+}
+
+.projetos .projetos-qccheck-imgs .projetos-qccheck-img {
+    max-width: 40%;
+    height: auto;
+}
+
+.projetos .servidor-arara {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+    gap: 4rem;
+}
+
+.projetos .servidor-arara .servidor-arara-imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.projetos .servidor-arara .servidor-arara-imgs .servidor-arara-img {
+    min-width: 200%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.projetos .servidor-pessoal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80%;
+    gap: 4rem;
+}
+
+.projetos .skin-imgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 80%;
+    height: auto;
+}
+
+.projetos .skin-imgs .skin-img {
+    max-width: 60%;
+    height: auto;
+}
+
+.finalizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 80%;
+    gap: 2rem;
+}
+
+.finalizacao .finalizacao h3 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.finalizacao .finalizacao-txt {
+    font-size: 1.2rem;
+}
+
+.finalizacao .finalizacao-txt p {
+    font-family: 'Times New Roman', serif; font-style: italic;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 2rem 10rem 2rem;
+}
+
+footer .footer-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0rem;
+    margin: 0.5rem;
+}
+
+footer .footer-subtitle .icoFooter {
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5rem;
+    max-width: 1.5rem;
+    padding: 0.2rem;
+    color:#ffecd2;
+    background-color: #ffecd2;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+footer .txtFooter {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #dbdbdb;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
